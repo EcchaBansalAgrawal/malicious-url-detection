@@ -3,7 +3,7 @@
 **Group 19 — Symbiosis Institute of Technology, Academic Year 2026–27**
 **Members:** Aarya Balwadkar, Afifa Bintul Hasan, Aparna Nair, Eccha Bansal
 
-**GitHub repository:** https://github.com/AaryaBalwadkar/malicious-url-detection
+**GitHub repository:** https://github.com/EcchaBansalAgrawal/malicious-url-detection
 > The ZIP submitted to the professor already contains everything in this repo plus
 > `data/`, `models/` and `report/` so it runs offline.
 
@@ -43,10 +43,12 @@ MaliciousURLDetection_Submission/
 │  report/
 │    CaseStudy_Report_Group19.pdf / .docx   <- main case-study report
 │    IEEE_Conference_Paper_Group19.pdf      <- IEEE-format paper
+│  video/
+│    cs_video_final.mp4    <- project presentation video
 ```
 
-Total unzipped ≈ 88 MB (models ≈ 67 MB, data ≈ 11 MB), zipped ≈ 70–75 MB —
-inside the 100 MB upload limit. Nothing else is needed to run.
+Total unzipped ≈ 150 MB (including the ≈ 61 MB presentation video; models ≈ 67 MB,
+data ≈ 11 MB). The video is optional for running the project.
 
 ---
 
@@ -167,10 +169,11 @@ REM -> dist\demo_predict.exe (needs models\ + data\ next to it)
 
 ## 7. GitHub link
 
-Public repo (source + results + figures + report; models/data also present —
-see `.gitignore` note about Git LFS if push warns on the 57 MB RandomForest file):
+Public repo (source + results + figures + report + presentation video; models/data
+also present). GitHub accepted the 61 MB video, with a warning that files over
+50 MB are larger than recommended.
 
-**https://github.com/AaryaBalwadkar/malicious-url-detection**
+**https://github.com/EcchaBansalAgrawal/malicious-url-detection**
 
 This README is the submission version — re-zip this folder before uploading
 to the professor portal.
